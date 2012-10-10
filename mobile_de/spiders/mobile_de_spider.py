@@ -6,8 +6,8 @@ import cPickle as pickle
 import smtplib
 from email.mime.text import MIMEText
 
-from_email = "<alert@longitude.inixio.net>"
-to_emails = ["<whiskeykontequila@gmail.com>", "<aleksandar.bilanovic@lhsgroup.com>"]
+from_email = "<alert@longitude.net>"
+to_emails = ["<example@gmail.com>", "<example@lhsgroup.com>"]
 
 class Mobile_deSpider(BaseSpider):
     name = "mobile_de"
